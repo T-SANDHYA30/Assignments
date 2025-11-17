@@ -1,0 +1,44 @@
+use sandhyadb;
+create table studentdetails(StudentID int, Name varchar(100), PhoneNumbers int);
+insert into studentdetails values(101, 'Ravi', 98765);
+insert into studentdetails values(101, 'Ravi', 87654);
+insert into studentdetails values(102, 'Anita', 99900);
+insert into studentdetails values(103, 'John', 88888);
+insert into studentdetails values(103, 'John', 77777);
+insert into studentdetails values(101, 'John', 66666);
+select * from studentdetails;
+
+create table Orderdetails(OrderId int, Customer Varchar(100), Items Varchar(100));
+insert into Orderdetails values(01, 'Raj', 'Pen');
+insert into Orderdetails values(01, 'Raj', 'Pencil');
+insert into Orderdetails values(02, 'sam', 'Notebook');
+insert into Orderdetails values(03, 'Raj', 'Eraser');
+insert into Orderdetails values(03, 'Raj', 'Marker');
+insert into Orderdetails values(03, 'Raj', 'Pen');
+select * from Orderdetails;
+
+create table empdetails(empid int, EmpName Varchar(100), Skills Varchar(30));
+insert into empdetails values(1, 'Ramesh', 'Java');
+insert into empdetails values(1, 'Ramesh', 'Python');
+insert into empdetails values(2, 'Anita', 'Excel');
+insert into empdetails values(3, 'John', 'C++');
+insert into empdetails values(3, 'John', 'Java');
+insert into empdetails values(1, 'John', 'HTML');
+select * from empdetails;
+
+create table CusAdd(CustID int, Name text, City text, State text, Country text);
+insert into CusAdd values(1, 'Meera', 'Hyderabad', 'Telangana', 'India');
+insert into CusAdd values(2, 'Ajay', 'Pune', 'Maharashtra', 'India');
+select * from CusAdd;
+
+create table StudDetails(StudentID int, StudentName text);
+insert into StudDetails values(1, 'Ramesh');
+insert into StudDetails values(2, 'Anita');
+alter table StudDetails add constraint sdpk primary key(StudentID);
+select * from StudDetails;
+create table CourseDetails(CourseID Varchar(10), CourseName text, Faculty text);
+insert into CourseDetails values('C1', 'java', 'Amit');
+insert into CourseDetails values('C2', 'Python', 'Seema');
+alter table CourseDetails add constraint cdpk primary key(CourseID);
+Select * from CourseDetails;
+create table stdmarks (StudentID int, CourseID Varchar(10), Marks int, primary key(StudentID,CourseID));
