@@ -1,3 +1,6 @@
+1NF
+
+Q1 Ans.
 use sandhyadb;
 create table studentdetails(StudentID int, Name varchar(100), PhoneNumbers int);
 insert into studentdetails values(101, 'Ravi', 98765);
