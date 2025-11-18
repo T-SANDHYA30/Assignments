@@ -1,0 +1,20 @@
+use ass2;
+show tables;
+desc customers;
+desc employees;
+desc orders;
+desc orderdetails;
+desc productlines;
+desc products;
+desc payments;
+desc offices;
+select * from payments;
+select * from customers;
+select * from offices;
+
+insert into customers values(30,'sandy','thum','viswa',77777,'muddanur','kkt street','kadapa','ap','1965','india','1165',661);
+update customers set creditLimit=creditLimit+creditLimit*0.1;
+delete from orders where orderDate<'2005-01-01';
+insert into products values('090','pdname','Classic Cars','60','sandy','nice car',2,89,665);
+insert into payments values(30,'HQ336336','2003-09-20',9000);
+delete from offices where city='London';
