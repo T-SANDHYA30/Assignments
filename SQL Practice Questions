@@ -11,10 +11,25 @@ desc offices;
 select * from payments;
 select * from customers;
 select * from offices;
+select* from orders;
+select * from products;
+select * from employees;
 
-insert into customers values(30,'sandy','thum','viswa',77777,'muddanur','kkt street','kadapa','ap','1965','india','1165',661);
+insert into customers values(34,'sandy','thum','viswa',77777,'muddanur','kkt street','kadapa','ap','1965','india','1165',661);
 update customers set creditLimit=creditLimit+creditLimit*0.1;
 delete from orders where orderDate<'2005-01-01';
 insert into products values('090','pdname','Classic Cars','60','sandy','nice car',2,89,665);
-insert into payments values(30,'HQ336336','2003-09-20',9000);
+insert into payments values(30,'JM555205','2003-09-20',9000);
 delete from offices where city='London';
+select productCode from products where productCode not in(select productCode from orderdetails);
+DELETE FROM products p WHERE NOT EXISTS (
+ select 1 FROM orderdetails od where od.productCode = p.productCode
+ );
+insert into employees values(8,'hi','world','hehe','sandy@mail','1',1002,'it inspector');
+select * from customers where creditLimit>50000;
+select * from offices where officeCode='1';
+select * from products where 50<buyPrice<100;
+select * from employees where reportsTo=1143;
+select * from customers where city like 'S%';
+select * from orders where status = 'Shipped' and orderDate like '2004%';
+select * from payments where paymentDate like '2003%';
