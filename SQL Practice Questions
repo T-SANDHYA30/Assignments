@@ -33,3 +33,29 @@ select * from employees where reportsTo=1143;
 select * from customers where city like 'S%';
 select * from orders where status = 'Shipped' and orderDate like '2004%';
 select * from payments where paymentDate like '2003%';
+
+/* GROUP BY AND HAVING*/
+select customerNumber,count(*) from payments group by customerNumber;
+select customerNumber,count(*) from payments group by customerNumber having count(*)>3;
+select officeCode,count(*) from employees group by officeCode;
+select productLine,avg(buyPrice) from products group by productLine having avg(buyPrice)>100;
+select customerNumber,sum(amount) from payments group by customerNumber having sum(amount)>50000;
+select productCode,count(*) from products group by productCode;
+select status,count(*) from orders group by status;
+select reportsTo,count(*) from employees group by reportsTo;
+
+/*ORDER BYCLAUSE*/
+SELECT * FROM customers order by creditLimit desc;
+select * from orderdetails order by quantityOrdered asc;
+select * from payments order by paymentDate desc;
+select * from employees order by jobTitle,lastName;
+select * from customers order by creditlimit desc limit 5;
+select * from products order by productLine asc;
+select * from products order by productLine,buyPrice;
+
+
+/*bUILT-IN functions (mysql)*/
+SELECT now();
+select count(*) from customers;
+select substr(customerName,1,5);
+select * from orders where datediff(now(), orderDate)<=30;
