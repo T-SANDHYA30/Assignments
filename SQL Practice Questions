@@ -53,9 +53,20 @@ select * from customers order by creditlimit desc limit 5;
 select * from products order by productLine asc;
 select * from products order by productLine,buyPrice;
 
+/*joins*/
+select o.orderId, c.customerName from orders as o inner join customers as c on o.customerNumber=c.customerNumber;
+ 
+select p.*,oq.quantityordered from products as p left join orderdetails as oq on p.productCode=oq.productCode;
+select customers.custoemrNumber,customers.customerName from customers left join orders as customers.customerNumber=orders.customerNumber where orders.customerNumber is NULL;
+SELECT  o.*, e.employeeNumber,e.jobTitle FROM offices AS o LEFT JOIN employees AS e ON o.officeCode = e.officeCode;
 
 /*bUILT-IN functions (mysql)*/
 SELECT now();
 select count(*) from customers;
-select substr(customerName,1,5);
+select substr(customerName,1,5) from customers;
 select * from orders where datediff(now(), orderDate)<=30;
+select DATE_FORMAT(orderDate) from orderdetails;
+select len(customerName) as namelength from customers;
+select lower(lastName) from employees;
+SELECT order_id, SUM(quantityOrder * priceEach) AS TotalSales FROM Orders GROUP BY order_id;
+select YEAR(paymentDates) as paymentyear, MONTH(paymentDates) as paymentmonth from payments; 
