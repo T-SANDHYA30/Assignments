@@ -61,6 +61,7 @@ select customers.customerNumber,customers.customerName from customers left join 
 SELECT  o.*, e.employeeNumber,e.jobTitle FROM offices AS o LEFT JOIN employees AS e ON o.officeCode = e.officeCode;
 select orderdetails.*, products.productName,products.quantityInStock,products.buyPrice from orderdetails left join products on orderdetails.productCode=products.productCode;
 
+select orderNumber from orders where shippedDate is null;
 
 /*bUILT-IN functions (mysql)*/
 SELECT now();
