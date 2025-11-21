@@ -34,7 +34,7 @@ select * from customers where city like 'S%';
 select * from orders where status = 'Shipped' and orderDate like '2004%';
 select * from payments where paymentDate like '2003%';
 
-/* GROUP BY AND HAVING*/
+-- GROUP BY AND HAVING --
 select customerNumber,count(*) from payments group by customerNumber;
 select customerNumber,count(*) from payments group by customerNumber having count(*)>3;
 select officeCode,count(*) from employees group by officeCode;
@@ -53,7 +53,7 @@ select * from customers order by creditlimit desc limit 5;
 select * from products order by productLine asc;
 select * from products order by productLine,buyPrice;
 
-/*joins*/
+-- joins --
 select o.orderNumber, c.customerName from orders as o inner join customers as c on o.customerNumber=c.customerNumber;
  
 select p.*,oq.quantityordered from products as p left join orderdetails as oq on p.productCode=oq.productCode;
@@ -61,9 +61,12 @@ select customers.customerNumber,customers.customerName from customers left join 
 SELECT  o.*, e.employeeNumber,e.jobTitle FROM offices AS o LEFT JOIN employees AS e ON o.officeCode = e.officeCode;
 select orderdetails.*, products.productName,products.quantityInStock,products.buyPrice from orderdetails left join products on orderdetails.productCode=products.productCode;
 
+select offices.officeCode,offices.city,employees.firstName from offices inner join employees on offices.officeCode=employees.officeCode;
 select orderNumber from orders where shippedDate is null;
 
-/*bUILT-IN functions (mysql)*/
+-- Sub quieries --
+
+-- bUILT-IN functions (mysql) --
 SELECT now();
 select count(*) from customers;
 select substr(customerName,1,5) from customers;
