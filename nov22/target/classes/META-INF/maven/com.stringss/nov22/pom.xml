@@ -2,21 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-  <groupId>com.methodreferences</groupId>
-  <artifactId>nov24</artifactId>
+  <groupId>com.stringss</groupId>
+  <artifactId>nov22</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>nov24</name>
-=======
-  <groupId>com.practice</groupId>
-  <artifactId>OopsPractice</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-
-  <name>OopsPractice</name>
->>>>>>> 1662b4bff636727e26f20b39f9341dc41a011d57
+  <name>nov22</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -30,14 +21,5 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
-=======
-    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.42</version>
-</dependency>
->>>>>>> 1662b4bff636727e26f20b39f9341dc41a011d57
   </dependencies>
 </project>
