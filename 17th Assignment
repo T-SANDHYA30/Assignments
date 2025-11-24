@@ -1,0 +1,132 @@
+1NF
+
+Q1 Ans.
+use sandhyadb;
+create table studentdetails(StudentID int, Name varchar(100), PhoneNumbers int);
+insert into studentdetails values(101, 'Ravi', 98765);
+insert into studentdetails values(101, 'Ravi', 87654);
+insert into studentdetails values(102, 'Anita', 99900);
+insert into studentdetails values(103, 'John', 88888);
+insert into studentdetails values(103, 'John', 77777);
+insert into studentdetails values(101, 'John', 66666);
+select * from studentdetails;
+
+ Q2 ans.
+create table Orderdetails(OrderId int, Customer Varchar(100), Items Varchar(100));
+insert into Orderdetails values(01, 'Raj', 'Pen');
+insert into Orderdetails values(01, 'Raj', 'Pencil');
+insert into Orderdetails values(02, 'sam', 'Notebook');
+insert into Orderdetails values(03, 'Raj', 'Eraser');
+insert into Orderdetails values(03, 'Raj', 'Marker');
+insert into Orderdetails values(03, 'Raj', 'Pen');
+select * from Orderdetails;
+
+Q3 Ans.
+create table empdetails(empid int, EmpName Varchar(100), Skills Varchar(30));
+insert into empdetails values(1, 'Ramesh', 'Java');
+insert into empdetails values(1, 'Ramesh', 'Python');
+insert into empdetails values(2, 'Anita', 'Excel');
+insert into empdetails values(3, 'John', 'C++');
+insert into empdetails values(3, 'John', 'Java');
+insert into empdetails values(1, 'John', 'HTML');
+select * from empdetails;
+
+Q4 ans.
+create table CusAdd(CustID int, Name text, City text, State text, Country text);
+insert into CusAdd values(1, 'Meera', 'Hyderabad', 'Telangana', 'India');
+insert into CusAdd values(2, 'Ajay', 'Pune', 'Maharashtra', 'India');
+select * from CusAdd;
+
+Part B
+
+Q5 Ans.
+create table StudDetails(StudentID int, StudentName text);
+insert into StudDetails values(1, 'Ramesh');
+insert into StudDetails values(2, 'Anita');
+alter table StudDetails add constraint sdpk primary key(StudentID);
+select * from StudDetails;
+create table CourseDetails(CourseID Varchar(10), CourseName text, Faculty text);
+insert into CourseDetails values('C1', 'java', 'Amit');
+insert into CourseDetails values('C2', 'Python', 'Seema');
+alter table CourseDetails add constraint cdpk primary key(CourseID);
+Select * from CourseDetails;
+create table stdmarks (StudentID int, CourseID Varchar(10), Marks int, primary key(StudentID,CourseID));
+insert into stdmarks values(1, 'C1', 90);
+insert into stdmarks values(1, 'C2', 85);
+insert into stdmarks values(2, 'C1', 78);
+select * from stdmarks;
+
+Q6 Ans.
+create table Products(OrderId int primary key, customername Varchar(100));
+insert into Products values(01, 'Raj');
+insert into Products values(02, 'Meena');
+select * from Products;
+create table proddetails(ProductId Varchar(10) primary key, Productname text);
+insert into proddetails values('P1', 'Pen');
+insert into proddetails values('P2', 'Pencil');
+select * from proddetails;
+create table quandetails(OrderID int, ProductID Varchar(10), quantity int, primary key(OrderID,ProductID));
+insert into quantdetails values(01, 'P1', 2);
+insert into quantdetails values(01, 'P2', 1);
+insert into quantdetails values(02, 'P1', 3);
+select * from quantdetails;
+
+Q7 Ans.
+create table emp(EmpId int primary key, Empname text);
+insert into emp values(1, 'Ravi');
+insert into emp values(2, 'Anita');
+select * from emp;
+create table project(ProjectId Varchar(10) primary key, ProjectName text);
+insert into project values('p1', 'WebApp');
+insert into project values('p2', 'MobileApp');
+select * from project;
+create table hours(EmpId int, ProjectId Varchar(10), Whours int, primary key(EmpId,ProjectId));
+insert into hours values(1, 'P1', 20);
+insert into hours values(1, 'P2', 30);
+insert into hours values(2, 'P1', 25);
+select * from hours;
+
+Q8 Ans.
+
+create table Driver(DriverId Varchar(10) primary key, drivername text);
+insert into Driver values('D1', 'Amit');
+insert into Driver values('D2', 'Sunil');
+select * from Driver;
+create table route(routeid varchar(10) primary key, routename text);
+insert into route values('R1', 'Airport route');
+insert into route values('R2', 'city route');
+select * from route;
+create table dist(DriverId Varchar(10), routeid Varchar(10), dist int, primary key(DriverId,routeid));
+insert into dist values('D1','R1',40);
+insert into dist values('D1','R2',20);
+insert into dist values('D2','R1',40);
+select * from dist;
+
+Q9 ans.
+
+1NF
+create table orders(Id int, c_name text, city text, PId Varchar(10), P_name text, price int, Quantity int);
+insert into orders values(01, 'ravi', 'mumbai', 'p1', 'pen', 10', 2);
+insert into orders values(01, 'ravi', 'mumbai', 'p1', 'pen', 10', 3);
+insert into orders values(02, 'meena', 'delhi', 'p2', 'book', 100', 1);
+insert into orders values(02, 'meena', 'delhi', 'p3', 'bag', 500', 1);
+insert into orders values(02, 'meena', 'delhi', 'p3', 'bag', 500', 2);
+select * from orders;
+
+2NF
+create table coust(ordid int primary key, cname text, city text);
+insert into coust values(01, 'ravi', 'mumbai');
+insert into coust values(02, 'meena', 'delhi');
+select * from coust;
+create table prod(pid Varchar(10) primary key, pname text, price int);
+insert into prod values('p1', 'pen', 10);
+insert into prod values('p2', 'book', 100);
+insert into prod values('p3', 'bag', 500);
+select * from prod;
+create table quan(ordid int, pid Varchar(10), quan int, foreign key(ordid) references coust(ordid), foreign key(pid) references prod(pid));
+insert into quan values(01, 'p1', 2);
+insert into quan values(01, 'p1', 3);
+insert into quan values(02, 'p2', 1);
+insert into quan values(02, 'p3', 1);
+insert into quan values(02, 'p3', 2);
+select * from quan;
