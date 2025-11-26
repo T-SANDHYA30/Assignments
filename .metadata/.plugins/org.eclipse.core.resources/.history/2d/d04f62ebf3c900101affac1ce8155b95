@@ -1,0 +1,25 @@
+package com.assesments;
+
+import com.basics.design_patterns.DBConnection;
+
+public class Logger {
+	private static Logger instance;
+	private static String Message;
+	
+	private Logger() {
+		System.out.println("get message");
+	}
+	
+	public static Logger getInstance() {
+		if(instance!=null)
+			return instance;
+		else
+			return instance=new Logger();
+	}
+	public static void getText(String text) {
+		Message =text;
+		System.out.println(Message);
+		
+	}
+
+}

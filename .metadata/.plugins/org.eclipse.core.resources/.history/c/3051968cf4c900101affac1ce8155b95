@@ -1,0 +1,7 @@
+package com.assesments;
+
+public class ConfigurationManager {
+	
+	public static ConfigurationManager instance;
+
+}

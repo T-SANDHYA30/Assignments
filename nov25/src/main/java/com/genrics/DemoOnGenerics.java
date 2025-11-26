@@ -1,0 +1,55 @@
+package com.genrics;
+
+import java.util.Arrays;
+
+public class DemoOnGenerics {
+	
+	
+	public static <T> void display(T data) {
+		System.out.println("data is"+ data);
+	}
+	
+	public static <T extends Number,U extends Number> void add(T t1,U u1) {
+		System.out.println(t1);
+		System.out.println(u1);
+		System.out.println(t1.intValue()+u1.intValue());
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Container<String> c1=new Container<String>(); c1.setItem("sandhya");
+		 * System.out.println(c1.getItem());
+		 * 
+		 * Container<Student> c2=new Container<Student>(); Student s=new Student();
+		 * c2.setItem(s); System.out.println(c2.getItem());
+		 * 
+		 * Container<Integer> c3=new Container<Integer>(); c1.setItem(67);
+		 * System.out.println(c3.getItem());
+		 * 
+		 * Container<Integer[]> c4=new Container<Integer[]>(); Integer[] irr=
+		 * {45,67,90,23,5}; c4.setItem(irr);
+		 * System.out.println(Arrays.toString(c4.getItem()));
+		 * 
+		 * Pair<String,Double> p1=new Pair<String,Double>("distance in kms",7.5);
+		 * System.out.println(p1); Pair<String,Double> p2=new
+		 * Pair<String,Double>("Weight in kmg",6.0); System.out.println(p2);
+		 * Pair<Integer, String> p3=new Pair<Integer,String>(12345,"Laptop");
+		 * System.out.println(p3); Student s1=new Student(234,"Amit","Java");
+		 * Pair<Integer, Student> p4=new Pair<Integer,Student>(1,s1);
+		 * System.out.println(p4);
+		 * 
+		 */
+		
+		display("sandhya");
+		display(34);
+		display(true);
+		Item item=new Item(11,"Mobile",300000);
+		display(item);
+		
+		add(5,6);
+
+	}
+
+}

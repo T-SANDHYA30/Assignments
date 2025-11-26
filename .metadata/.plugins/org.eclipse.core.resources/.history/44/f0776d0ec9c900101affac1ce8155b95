@@ -1,0 +1,19 @@
+package com.genrics;
+
+public class OrderGenrics {
+	
+	public static void main(String args[]) {
+		Order<String> o1=new Order<String>("Laptop");
+		Order<String> o2=new Order<String>("mobile");
+		System.out.println(o1);
+		System.out.println(o2);
+		
+		Item item=new Item(12,"laptop",40000);
+		Order<Item> o3=new Order<Item>(item);
+		System.out.println(o3);
+		
+		Item[] itemArr=new Item[3];
+		Item i1=new Item(11,"sandhya",89);
+	}
+
+}

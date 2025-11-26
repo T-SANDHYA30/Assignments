@@ -1,0 +1,39 @@
+package com.basics.design_patterns;
+
+public class Pizza {
+	
+	private String size;
+	private boolean cheese;
+	private boolean olive;
+	
+	private Pizza(Builder builder) {
+		this.size=builder.size;
+		this.cheese=builder.cheese;
+		this.olive=builder.olive;
+	}
+	
+	public static class Builder{
+		private String size;
+		private boolean cheese;
+		private boolean olive;
+		
+		public Builder(String size) {
+			this.size=size;
+		}
+		
+		public Builder cheese(boolean value) {
+			this.cheese=value;
+			return this;
+		}
+		
+		public Builder olive(boolean value) {
+			this.olive=value;
+			return this;
+			
+		}
+		public Pizza build() {
+			return new Pizza(this);
+		}
+	}
+
+}

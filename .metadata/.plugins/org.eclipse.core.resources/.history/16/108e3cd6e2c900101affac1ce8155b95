@@ -1,0 +1,10 @@
+package com.basics.design_patterns;
+
+public class MacButton implements Button{
+	
+	@Override
+	public void check() {
+		System.out.println("mac button");
+	}
+
+}
