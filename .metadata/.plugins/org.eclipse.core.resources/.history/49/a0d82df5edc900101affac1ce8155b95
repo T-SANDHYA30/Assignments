@@ -1,0 +1,14 @@
+package com.basics.design_patterns;
+
+public class TeaMaker extends DrinkMaker{
+	
+	@Override
+	void makeDrink() {
+		System.out.println("make drink");
+	}
+	void addExtras() {
+		System.out.println("make extras");
+		
+	}
+
+}

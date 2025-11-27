@@ -1,0 +1,37 @@
+package com.genrics;
+
+import java.util.Arrays;
+
+public class OrderGenrics {
+	
+	public static void main(String args[]) {
+		Order<String> o1=new Order<String>("Laptop");
+		Order<String> o2=new Order<String>("mobile");
+		System.out.println(o1);
+		System.out.println(o2);
+		
+		Item item=new Item(12,"laptop",40000);
+		Order<Item> o3=new Order<Item>(item);
+		System.out.println(o3);
+		
+		Item[] itemArr=new Item[3];
+		
+		
+		Item item1=new Item(12,"mobile",45000);
+		Item[] itemArr = {item1,item2,item3,item4,item5};
+		
+		Order<Item[]> orders=new Order<Item[]>(itemArr);
+		System.out.println(orders);
+		
+		System.out.println(Arrays.toString(orders.getItem()));
+		
+		Integer nums[]= {1,2,3,45,6,8,0};
+		String strs[]= {"str1","str2","str3","str4"};
+		ArrayPrinter<Integer> ap1=new ArrayPrinter<>(nums);
+		ArrayPrinter<String> ap2=new ArrayPrinter<>();
+		System.out.println(ap1);
+		System.out.println(ap2);
+		
+	}
+
+}

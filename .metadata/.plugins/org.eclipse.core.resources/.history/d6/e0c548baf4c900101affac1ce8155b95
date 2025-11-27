@@ -1,0 +1,11 @@
+package com.assesments;
+
+public class ConfigurationManager {
+	
+	public static ConfigurationManager instance;
+	
+	private ConfigurationManager() {
+		System.out.println("get Instance");
+	}
+
+}

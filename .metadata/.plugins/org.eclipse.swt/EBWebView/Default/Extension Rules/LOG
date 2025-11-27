@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+2025/11/25-09:53:55.940 2db8 Creating DB C:\Users\thummaluru.sandhya1\practice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules since it was missing.
+2025/11/25-09:53:57.127 2db8 Reusing MANIFEST C:\Users\thummaluru.sandhya1\practice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules/MANIFEST-000001
+=======
+2025/11/20-16:38:54.872 4a40 Creating DB C:\Users\thummaluru.sandhya1\eclipse-workspace\DemoProject\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules since it was missing.
+2025/11/20-16:38:56.865 4a40 Reusing MANIFEST C:\Users\thummaluru.sandhya1\eclipse-workspace\DemoProject\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Extension Rules/MANIFEST-000001
+>>>>>>> 1fd7e920165fb761534fb3a5f63e0a59cce59e3d

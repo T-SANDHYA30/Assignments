@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+2025/11/26-09:39:11.387 4afc Reusing MANIFEST C:\Users\thummaluru.sandhya1\practice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/11/26-09:39:11.392 4afc Recovering log #3
+2025/11/26-09:39:11.393 4afc Reusing old log C:\Users\thummaluru.sandhya1\practice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/000003.log 
+=======
+2025/11/20-16:38:56.042 510 Creating DB C:\Users\thummaluru.sandhya1\eclipse-workspace\DemoProject\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata since it was missing.
+2025/11/20-16:38:57.100 510 Reusing MANIFEST C:\Users\thummaluru.sandhya1\eclipse-workspace\DemoProject\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+>>>>>>> 1fd7e920165fb761534fb3a5f63e0a59cce59e3d

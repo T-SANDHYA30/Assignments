@@ -1,0 +1,13 @@
+ package com.basics.design_patterns;
+
+public class DBConnection {
+		
+		private DBConnection() {
+			System.out.println("instance created");
+		}
+		
+		
+
+	}
+
+}

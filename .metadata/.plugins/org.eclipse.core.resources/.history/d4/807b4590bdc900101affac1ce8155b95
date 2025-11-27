@@ -1,0 +1,8 @@
+package com.genrics;
+
+public class Order<T>{
+	
+	private T item;
+	
+
+}

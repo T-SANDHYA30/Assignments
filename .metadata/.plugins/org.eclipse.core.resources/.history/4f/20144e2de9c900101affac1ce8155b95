@@ -1,0 +1,31 @@
+package com.genrics;
+
+public class ArrayPrinter {
+	
+	private T[] arr;
+
+	public T[] getArr() {
+		return arr;
+	}
+
+	public void setArr(T[] arr) {
+		this.arr = arr;
+	}
+
+	public ArrayPrinter(T[] arr) {
+		super();
+		this.arr = arr;
+	}
+
+	public ArrayPrinter() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "ArrayPrinter []";
+	}
+	
+
+}

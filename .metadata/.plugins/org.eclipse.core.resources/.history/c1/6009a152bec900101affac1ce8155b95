@@ -1,0 +1,10 @@
+package com.genrics;
+
+public class Item {
+	
+	private int id;
+	private String itemname;
+	private double itemCost;
+	
+
+}
