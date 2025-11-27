@@ -1,9 +1,0 @@
-package com.genrics;
-
-public class OrderGenrics {
-	
-	public static void main(String args[]) {
-		
-	}
-
-}

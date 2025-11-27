@@ -1,8 +1,0 @@
-package com.genrics;
-
-public class Pair {
-	
-	private K key;
-	private V value;
-
-}
