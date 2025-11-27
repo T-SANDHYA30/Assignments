@@ -1,8 +1,0 @@
-package com.basics.design_patterns;
-
-public interface Video {
-	
-	protected ProcessingQuality quality;
-	
-	public void playVideo();
-}

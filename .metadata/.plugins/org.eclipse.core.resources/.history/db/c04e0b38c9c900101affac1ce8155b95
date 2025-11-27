@@ -1,7 +1,0 @@
-package com.genrics;
-
-public class ArrayPrinter {
-	
-	private T[] arr;
-
-}
