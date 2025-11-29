@@ -1,0 +1,51 @@
+package com.stacksandqueues;
+
+public class CirucularQueues {
+
+	private static int front = -1;
+	private static int rear = -1;
+	private static int[] cqueue = new int[10];
+
+	public static boolean isFull() {
+		return (rear + 1) % 10 == front;
+	}
+
+	public static boolean isEmpty() {
+			return front==-1;
+	}
+	public static void insert(int data) {
+		if(isFull()) {
+			System.out.println("Queue is full");
+		}
+		else
+		{
+			if(rear==-1)
+			{
+				cqueue[rear++]=data;
+				front=0;
+				rear=(rear+1)%10;
+				cqueue[rear]=data;
+				System.out.println(data+"inserted succeessfully");
+			}
+		}
+	}
+	public static void delete() {
+		if(isEmpty())
+			System.out.println("queue is empty");
+		else
+		{
+			System.out.println(cqueue[front]+"deleted successfully");
+			if(front==rear)
+				front=rear=-1;
+			front=front+1%10;
+		}
+	}
+	public void display() {
+		if(isEmpty())
+			System.out.println("no data");
+		else
+			for(int i=front;i<rear;i++)
+				System.out.println(cqueue[i]);
+	}
+
+}
