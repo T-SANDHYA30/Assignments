@@ -1,0 +1,58 @@
+package com.jdbc.jdbcfile;
+
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+public class App {
+	public static void main( String[] args ) throws ClassNotFoundException, SQLException
+    {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        System.out.println("driver loaded");
+        
+        String uname="root";
+        String pwd="root@39";
+        String url="jdbc:mysql://localhost:3306/assignments";
+		try (Connection con = DriverManager.getConnection(url, uname, pwd);
+				// System.out.println("connection established");
+				// String query="select * from Customer";)
+				// ResultSet rs= st.executeQuery(query);
+				
+				Statement st = con.createStatement();
+				ResultSet rs = st.executeQuery("select * from Customer");) {
+			ResultSetMetaData rsmd = rs.getMetaData();
+			int columnsCount = rsmd.getColumnCount();
+
+			for (int i = 1; i <= columnsCount; i++)
+				System.out.println(rsmd.getColumnName(i));
+
+			while (rs.next()) {
+//        	System.out.println("CustomerId:"+rs.getInt(1));
+//        	System.out.println("Name:"+rs.getString(2));
+//        	System.out.println("Address:"+rs.getString(3));
+//        	System.out.println("PhoneNumber:"+rs.getInt(4));
+//        	System.out.println("Email:"+rs.getString(5));
+//        	
+				for (int i = 1; i <= columnsCount; i++)
+					System.out.println(rsmd.getColumnName(i) + " : " + rs.getString(rsmd.getColumnName(i)));
+			}
+			DatabaseMetaData dbmd=con.getMetaData();
+			System.out.println(dbmd.getDatabaseProductName());
+			ResultSet rs1=dbmd.getTables(null,null,"root",new String[] {"TABLE"});
+			while (rs1.next()) {
+				
+			}
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+//        rs.close();
+//        st.close();
+//        con.close();
+		}
+	}
+}

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+<<<<<<< HEAD
 			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\SpringWebMvc\src\main\java\com\project\controller\HelloController.java"/>
 			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\webapp"/>
 			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\Orm_OneToMany_ManyToOne\src\main\java\com\project\Orm_OneToMany_ManyToOne\entities\Employee.java"/>
@@ -16,6 +17,13 @@
 			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\junit"/>
 		</list>
 		<list key="projectNameTemplate">
+=======
+			<item value="C:\Users\thummaluru.sandhya1\nov26\nov27\jdbcfile\src\main\java\com\jdbc\jdbcfile\JdbcProcCallDemo.java"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov26\nov27\novv27"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="reams"/>
+>>>>>>> b806e189d2932ffb15d80d154f48c3a4d80953fc
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
 			<item value="[artifactId]-[version]"/>
@@ -25,7 +33,11 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+<<<<<<< HEAD
 		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+=======
+		<item key="catalog" value="All Catalogs"/>
+>>>>>>> b806e189d2932ffb15d80d154f48c3a4d80953fc
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -37,6 +49,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+<<<<<<< HEAD
 			<item value="com.project.SpringWebMvc2"/>
 		</list>
 		<list key="groupId">
@@ -44,6 +57,15 @@
 		</list>
 		<list key="artifactId">
 			<item value="SpringWebMvc2"/>
+=======
+			<item value="com.threadss.multithreading"/>
+		</list>
+		<list key="groupId">
+			<item value="com.threadss"/>
+		</list>
+		<list key="artifactId">
+			<item value="multithreading"/>
+>>>>>>> b806e189d2932ffb15d80d154f48c3a4d80953fc
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -80,6 +102,7 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+<<<<<<< HEAD
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
 			<item value="He"/>
@@ -111,4 +134,6 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+=======
+>>>>>>> b806e189d2932ffb15d80d154f48c3a4d80953fc
 </section>

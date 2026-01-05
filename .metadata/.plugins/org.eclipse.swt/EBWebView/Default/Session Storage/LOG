@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2025/12/16-08:44:27.572 1d7c Reusing MANIFEST C:\Users\thummaluru.sandhya1\nov 29\nov29\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
 2025/12/16-08:44:27.698 1d7c Recovering log #3
 2025/12/16-08:44:27.808 1d7c Reusing old log C:\Users\thummaluru.sandhya1\nov 29\nov29\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+=======
+2025/11/28-17:33:31.079 2a38 Reusing MANIFEST C:\Users\thummaluru.sandhya1\nov26\nov27\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
+2025/11/28-17:33:31.106 2a38 Recovering log #3
+2025/11/28-17:33:31.114 2a38 Reusing old log C:\Users\thummaluru.sandhya1\nov26\nov27\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+>>>>>>> b806e189d2932ffb15d80d154f48c3a4d80953fc

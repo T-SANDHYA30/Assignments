@@ -1,0 +1,16 @@
+package com.filesio.files;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class DemoonByteStreams {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader reader=new BufferedReader(new FileReader("assets/data.txt"));
+		String data;
+		while((data=reader.readLine())!=null)
+			System.out.println(data);
+	}
+
+}
