@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\SpringWebMvc\src\main\java\com\project\controller\HelloController.java"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\webapp"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\Orm_OneToMany_ManyToOne\src\main\java\com\project\Orm_OneToMany_ManyToOne\entities\Employee.java"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\DAO_Example\src\main\java\com\project\DAO_Example\Dao\EmployeeDao.java"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\Hibernate"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\jspproject"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\congigproject"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\configcontext"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\webproject"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\hellomavenplugin"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\mavenproject\pom.xml"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\junit"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.project.SpringWebMvc2"/>
+		</list>
+		<list key="groupId">
+			<item value="com.project"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringWebMvc2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="He"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\QuizPortal"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\webapp"/>
+			<item value="C:\Users\thummaluru.sandhya1\nov 29\nov29\authproject"/>
+			<item value="C:\Users\thummaluru.sandhya1\Downloads\Tax_calculator-main\Tax_calculator-main"/>
+			<item value="C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App"/>
+			<item value="C:\Users\thummaluru.sandhya1\Downloads\Tax_calculator-main"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

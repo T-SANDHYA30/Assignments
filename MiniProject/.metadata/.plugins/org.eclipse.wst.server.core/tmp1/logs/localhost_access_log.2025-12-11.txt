@@ -1,0 +1,7 @@
+127.0.0.1 - - [11/Dec/2025:16:58:27 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [11/Dec/2025:16:58:27 +0530] "GET /QuizPortal/admin/createQuiz.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [11/Dec/2025:16:58:27 +0530] "GET /QuizPortal/admin/login HTTP/1.1" 200 4449
+0:0:0:0:0:0:0:1 - - [11/Dec/2025:16:58:34 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [11/Dec/2025:16:58:47 +0530] "POST /QuizPortal/admin/login HTTP/1.1" 200 4534
+0:0:0:0:0:0:0:1 - - [11/Dec/2025:16:58:59 +0530] "POST /QuizPortal/admin/login HTTP/1.1" 200 4534
+0:0:0:0:0:0:0:1 - - [11/Dec/2025:16:59:08 +0530] "POST /QuizPortal/admin/login HTTP/1.1" 200 4534

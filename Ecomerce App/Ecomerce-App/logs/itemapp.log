@@ -1,0 +1,1415 @@
+2025-12-15 09:42:22 INFO  %PARSER_ERROR[logge] Starting EcomerceAppApplication using Java 21.0.4 with PID 15484 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:42:22 DEBUG %PARSER_ERROR[logge] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:42:22 INFO  %PARSER_ERROR[logge] No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:42:22 INFO  %PARSER_ERROR[logge] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 09:42:22 INFO  %PARSER_ERROR[logge] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 09:42:22 INFO  %PARSER_ERROR[logge] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:42:22 INFO  %PARSER_ERROR[logge] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-12-15 09:42:23 INFO  %PARSER_ERROR[logge] Tomcat initialized with port 8072 (http)
+2025-12-15 09:42:23 INFO  %PARSER_ERROR[logge] Starting service [Tomcat]
+2025-12-15 09:42:23 INFO  %PARSER_ERROR[logge] Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 09:42:23 INFO  %PARSER_ERROR[logge] Root WebApplicationContext: initialization completed in 1514 ms
+2025-12-15 09:42:23 INFO  %PARSER_ERROR[logge] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 09:42:24 INFO  %PARSER_ERROR[logge] HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 09:42:24 INFO  %PARSER_ERROR[logge] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 09:42:24 INFO  %PARSER_ERROR[logge] HikariPool-1 - Starting...
+2025-12-15 09:42:25 INFO  %PARSER_ERROR[logge] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66e212eb
+2025-12-15 09:42:25 INFO  %PARSER_ERROR[logge] HikariPool-1 - Start completed.
+2025-12-15 09:42:25 INFO  %PARSER_ERROR[logge] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 09:42:25 INFO  %PARSER_ERROR[logge] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 09:42:26 INFO  %PARSER_ERROR[logge] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:42:26 INFO  %PARSER_ERROR[logge] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 09:42:26 WARN  %PARSER_ERROR[logge] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 09:42:27 INFO  %PARSER_ERROR[logge] Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 09:42:27 INFO  %PARSER_ERROR[logge] Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 09:42:27 INFO  %PARSER_ERROR[logge] Started EcomerceAppApplication in 5.676 seconds (process running for 6.659)
+2025-12-15 09:42:28 INFO  %PARSER_ERROR[logge] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 09:42:28 INFO  %PARSER_ERROR[logge] Initializing Servlet 'dispatcherServlet'
+2025-12-15 09:42:28 INFO  %PARSER_ERROR[logge] Completed initialization in 1 ms
+2025-12-15 09:43:33 INFO  %PARSER_ERROR[logge] Application shutdown requested.
+2025-12-15 09:43:33 INFO  %PARSER_ERROR[logge] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 09:43:33 INFO  %PARSER_ERROR[logge] Graceful shutdown complete
+2025-12-15 09:43:33 INFO  %PARSER_ERROR[logge] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:43:33 INFO  %PARSER_ERROR[logge] HikariPool-1 - Shutdown initiated...
+2025-12-15 09:43:33 INFO  %PARSER_ERROR[logge] HikariPool-1 - Shutdown completed.
+2025-12-15 09:45:09 INFO  %PARSER_ERROR[logge] Starting EcomerceAppApplication using Java 21.0.4 with PID 12628 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:45:09 DEBUG %PARSER_ERROR[logge] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:45:09 INFO  %PARSER_ERROR[logge] No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:45:09 INFO  %PARSER_ERROR[logge] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 09:45:09 INFO  %PARSER_ERROR[logge] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 09:45:10 INFO  %PARSER_ERROR[logge] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:45:10 INFO  %PARSER_ERROR[logge] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2025-12-15 09:45:11 INFO  %PARSER_ERROR[logge] Tomcat initialized with port 8072 (http)
+2025-12-15 09:45:11 INFO  %PARSER_ERROR[logge] Starting service [Tomcat]
+2025-12-15 09:45:11 INFO  %PARSER_ERROR[logge] Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 09:45:11 INFO  %PARSER_ERROR[logge] Root WebApplicationContext: initialization completed in 1603 ms
+2025-12-15 09:45:11 INFO  %PARSER_ERROR[logge] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 09:45:11 INFO  %PARSER_ERROR[logge] HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 09:45:12 INFO  %PARSER_ERROR[logge] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 09:45:12 INFO  %PARSER_ERROR[logge] HikariPool-1 - Starting...
+2025-12-15 09:45:12 INFO  %PARSER_ERROR[logge] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@653aa360
+2025-12-15 09:45:12 INFO  %PARSER_ERROR[logge] HikariPool-1 - Start completed.
+2025-12-15 09:45:12 INFO  %PARSER_ERROR[logge] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 09:45:13 INFO  %PARSER_ERROR[logge] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 09:45:13 INFO  %PARSER_ERROR[logge] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:45:13 INFO  %PARSER_ERROR[logge] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 09:45:14 WARN  %PARSER_ERROR[logge] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 09:45:14 INFO  %PARSER_ERROR[logge] Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 09:45:14 INFO  %PARSER_ERROR[logge] Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 09:45:14 INFO  %PARSER_ERROR[logge] Started EcomerceAppApplication in 5.47 seconds (process running for 6.46)
+2025-12-15 09:45:15 INFO  %PARSER_ERROR[logge] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 09:45:15 INFO  %PARSER_ERROR[logge] Initializing Servlet 'dispatcherServlet'
+2025-12-15 09:45:15 INFO  %PARSER_ERROR[logge] Completed initialization in 1 ms
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] Application shutdown requested.
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] Graceful shutdown aborted with one or more requests still active
+2025-12-15 09:45:53 WARN  %PARSER_ERROR[logge] Interrupt was received while waiting for the acceptor thread [http-nio-8072-Acceptor] to stop
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1133)
+	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:276)
+	at org.apache.tomcat.util.net.Acceptor.stopMillis(Acceptor.java:169)
+	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:327)
+	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1723)
+	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:721)
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1124)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+	at org.apache.catalina.core.StandardService.removeConnector(StandardService.java:297)
+	at org.springframework.boot.tomcat.TomcatWebServer.lambda$removeServiceConnectors$0(TomcatWebServer.java:176)
+	at org.springframework.boot.tomcat.TomcatWebServer.doWithConnectors(TomcatWebServer.java:195)
+	at org.springframework.boot.tomcat.TomcatWebServer.removeServiceConnectors(TomcatWebServer.java:173)
+	at org.springframework.boot.tomcat.TomcatWebServer.stop(TomcatWebServer.java:355)
+	at org.springframework.boot.web.server.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:53)
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:143)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:480)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:645)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:448)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:337)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1168)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:176)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1122)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:151)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] HikariPool-1 - Shutdown initiated...
+2025-12-15 09:45:53 INFO  %PARSER_ERROR[logge] HikariPool-1 - Shutdown completed.
+2025-12-15 09:45:53 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 12628 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:45:53 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:45:53 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:45:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:45:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 09:45:53 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 09:45:53 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 09:45:53 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 09:45:53 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 408 ms
+2025-12-15 09:45:53 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 09:45:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 09:45:53 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-12-15 09:45:53 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c397a07
+2025-12-15 09:45:53 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-12-15 09:45:53 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 09:45:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 09:45:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:45:54 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 09:45:54 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 09:45:54 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 09:45:54 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 1.271 seconds (process running for 46.236)
+2025-12-15 09:45:54 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 09:45:56 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2025-12-15 09:45:56 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 09:45:56 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 09:45:56 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:45:56 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-12-15 09:45:56 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-12-15 09:46:00 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 13576 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:46:00 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:46:00 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:46:00 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 09:46:00 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 09:46:00 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 18116 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:46:00 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:46:00 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:46:00 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 09:46:00 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 09:46:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:46:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:46:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-12-15 09:46:01 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-12-15 09:46:02 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 09:46:02 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 09:46:02 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 09:46:02 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 09:46:02 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 09:46:02 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 09:46:02 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1603 ms
+2025-12-15 09:46:02 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1579 ms
+2025-12-15 09:46:02 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 09:46:02 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 09:46:02 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 09:46:02 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 09:46:02 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 09:46:02 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 09:46:02 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 09:46:03 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 09:46:03 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5aab4e70
+2025-12-15 09:46:03 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 09:46:03 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5aab4e70
+2025-12-15 09:46:03 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 09:46:03 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 09:46:03 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 09:46:04 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 09:46:04 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 09:46:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:46:04 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:46:04 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 09:46:04 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 09:46:04 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 09:46:04 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 09:46:05 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 09:46:05 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 09:46:05 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 09:46:05 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 5.563 seconds (process running for 6.558)
+2025-12-15 09:46:05 WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-15 09:46:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:46:05 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 09:46:05 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 09:46:05 INFO  o.s.b.a.l.ConditionEvaluationReportLogger 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-15 09:46:05 ERROR o.s.b.d.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8072 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8072 or configure this application to listen on another port.
+
+2025-12-15 09:46:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 09:46:05 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 09:46:05 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-12-15 09:46:14 INFO  c.project.controllers.ItemController findAll Started
+2025-12-15 09:46:14 INFO  com.project.aop.LoggingAspect Entering method: findAll
+2025-12-15 09:46:14 INFO  com.project.services.ItemService findAll Started
+2025-12-15 09:46:14 INFO  com.project.aop.LoggingAspect Entering method: List com.project.services.ItemService.findAll()
+2025-12-15 09:46:14 INFO  com.project.aop.LoggingAspect findAll
+2025-12-15 09:46:28 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource emp/0 for request '/emp/0'.]
+2025-12-15 09:46:51 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 09:46:51 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 09:46:51 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 09:46:51 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:46:51 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 09:46:51 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 09:46:51 INFO  %PARSER_ERROR[logge] Starting EcomerceAppApplication using Java 21.0.4 with PID 13576 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:46:51 DEBUG %PARSER_ERROR[logge] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:46:51 INFO  %PARSER_ERROR[logge] No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:46:51 INFO  %PARSER_ERROR[logge] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:46:54 INFO  %PARSER_ERROR[logge] Starting EcomerceAppApplication using Java 21.0.4 with PID 15908 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:46:54 DEBUG %PARSER_ERROR[logge] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:46:54 INFO  %PARSER_ERROR[logge] No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:46:54 INFO  %PARSER_ERROR[logge] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 09:46:54 INFO  %PARSER_ERROR[logge] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 09:46:55 INFO  %PARSER_ERROR[logge] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 09:46:55 INFO  %PARSER_ERROR[logge] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-12-15 09:46:56 INFO  %PARSER_ERROR[logge] Tomcat initialized with port 8072 (http)
+2025-12-15 09:46:56 INFO  %PARSER_ERROR[logge] Starting service [Tomcat]
+2025-12-15 09:46:56 INFO  %PARSER_ERROR[logge] Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 09:46:56 INFO  %PARSER_ERROR[logge] Root WebApplicationContext: initialization completed in 1512 ms
+2025-12-15 09:46:56 INFO  %PARSER_ERROR[logge] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 09:46:56 INFO  %PARSER_ERROR[logge] HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 09:46:57 INFO  %PARSER_ERROR[logge] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 09:46:57 INFO  %PARSER_ERROR[logge] HikariPool-1 - Starting...
+2025-12-15 09:46:57 INFO  %PARSER_ERROR[logge] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@667f49c4
+2025-12-15 09:46:57 INFO  %PARSER_ERROR[logge] HikariPool-1 - Start completed.
+2025-12-15 09:46:57 INFO  %PARSER_ERROR[logge] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 09:46:58 INFO  %PARSER_ERROR[logge] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 09:46:58 INFO  %PARSER_ERROR[logge] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:46:58 INFO  %PARSER_ERROR[logge] Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 09:46:58 WARN  %PARSER_ERROR[logge] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 09:46:59 INFO  %PARSER_ERROR[logge] Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 09:46:59 INFO  %PARSER_ERROR[logge] Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 09:46:59 INFO  %PARSER_ERROR[logge] Started EcomerceAppApplication in 5.176 seconds (process running for 6.119)
+2025-12-15 09:47:00 INFO  %PARSER_ERROR[logge] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 09:47:00 INFO  %PARSER_ERROR[logge] Initializing Servlet 'dispatcherServlet'
+2025-12-15 09:47:00 INFO  %PARSER_ERROR[logge] Completed initialization in 1 ms
+2025-12-15 09:50:04 WARN  %PARSER_ERROR[logge] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource emp/0 for request '/emp/0'.]
+2025-12-15 09:54:55 WARN  %PARSER_ERROR[logge] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource emp/12 for request '/emp/12'.]
+2025-12-15 09:54:58 WARN  %PARSER_ERROR[logge] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource emp/12 for request '/emp/12'.]
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] Graceful shutdown complete
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] HikariPool-1 - Shutdown initiated...
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] HikariPool-1 - Shutdown completed.
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] Starting EcomerceAppApplication using Java 21.0.4 with PID 15908 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:58:17 DEBUG %PARSER_ERROR[logge] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:58:17 INFO  %PARSER_ERROR[logge] No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:58:17 WARN  %PARSER_ERROR[logge] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes\com\project\aop\LoggingAspect.class]
+2025-12-15 09:58:17 ERROR %PARSER_ERROR[logge] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes\com\project\aop\LoggingAspect.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:504) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:321) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:347) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:283) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:442) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:306) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:784) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at com.project.EcomerceAppApplication.main(EcomerceAppApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 590922 out of bounds for length 1556
+	at org.springframework.asm.ClassReader.readInt(ClassReader.java:3658) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.asm.ClassReader.getFirstAttributeOffset(ClassReader.java:3472) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:508) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:431) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:62) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:127) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:464) ~[spring-context-7.0.1.jar:7.0.1]
+	... 23 common frames omitted
+2025-12-15 09:59:24 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 15908 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 09:59:24 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 09:59:24 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 09:59:24 WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes\com\project\aop\LoggingAspect.class]
+2025-12-15 09:59:24 ERROR o.s.boot.SpringApplication Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes\com\project\aop\LoggingAspect.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:504) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:321) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:347) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:283) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:442) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:306) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:784) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) ~[spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-4.0.0.jar:4.0.0]
+	at com.project.EcomerceAppApplication.main(EcomerceAppApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 590922 out of bounds for length 1556
+	at org.springframework.asm.ClassReader.readInt(ClassReader.java:3658) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.asm.ClassReader.getFirstAttributeOffset(ClassReader.java:3472) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:508) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:431) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:62) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:127) ~[spring-core-7.0.1.jar:7.0.1]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:464) ~[spring-context-7.0.1.jar:7.0.1]
+	... 23 common frames omitted
+2025-12-15 10:04:23 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 15908 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:04:23 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:04:23 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:04:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:04:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:04:23 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:04:23 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:04:23 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:04:23 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 369 ms
+2025-12-15 10:04:24 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:04:24 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:04:24 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-12-15 10:04:24 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7aa7d211
+2025-12-15 10:04:24 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-12-15 10:04:24 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:04:24 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:04:24 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:04:24 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:04:24 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:04:24 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:04:24 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 1.038 seconds (process running for 1051.161)
+2025-12-15 10:04:24 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:05:07 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:05:07 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:05:07 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:05:07 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:05:07 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-12-15 10:05:07 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-12-15 10:05:07 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 15908 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:05:07 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:05:07 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:05:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:05:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-12-15 10:05:07 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:05:07 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:05:07 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:05:07 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 409 ms
+2025-12-15 10:05:07 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:05:08 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:05:08 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Starting...
+2025-12-15 10:05:08 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48a5fa5f
+2025-12-15 10:05:08 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Start completed.
+2025-12-15 10:05:08 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:05:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:05:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:05:08 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:05:08 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:05:08 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:05:08 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 1.048 seconds (process running for 1095.05)
+2025-12-15 10:05:08 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:05:31 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:05:31 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:05:31 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:05:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:05:31 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown initiated...
+2025-12-15 10:05:31 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown completed.
+2025-12-15 10:05:31 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 15908 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:05:31 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:05:31 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:05:31 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:05:31 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-12-15 10:05:32 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:05:32 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:05:32 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:05:32 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 335 ms
+2025-12-15 10:05:32 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:05:32 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:05:32 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Starting...
+2025-12-15 10:05:32 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a0b0445
+2025-12-15 10:05:32 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Start completed.
+2025-12-15 10:05:32 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:05:32 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:05:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:05:32 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:05:35 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 1856 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:05:35 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:05:35 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:05:35 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 10:05:35 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 10:05:36 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:05:36 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-12-15 10:05:36 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:05:36 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:05:36 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:05:36 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1461 ms
+2025-12-15 10:05:37 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:05:37 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 10:05:37 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:05:37 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 10:05:37 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e600450
+2025-12-15 10:05:37 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 10:05:38 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:05:38 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:05:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:05:39 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 10:05:39 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:05:39 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:05:39 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:05:39 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 5.01 seconds (process running for 5.966)
+2025-12-15 10:05:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 10:05:40 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 10:05:40 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-12-15 10:08:06 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:08:06 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:08:06 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:08:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:08:06 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 10:08:06 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 10:08:07 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 1856 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:08:07 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:08:07 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:08:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:08:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:08:07 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:08:07 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:08:07 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:08:07 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 387 ms
+2025-12-15 10:08:07 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:08:07 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:08:07 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-12-15 10:08:07 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4843b096
+2025-12-15 10:08:07 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-12-15 10:08:07 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:08:07 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:08:07 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:08:07 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:08:08 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:08:08 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:08:08 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 1.118 seconds (process running for 154.199)
+2025-12-15 10:08:08 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:08:11 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:08:11 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:08:11 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:08:11 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:08:11 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-12-15 10:08:11 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-12-15 10:08:11 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 1856 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:08:11 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:08:11 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:08:11 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:08:11 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2025-12-15 10:08:12 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:08:12 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:08:12 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:08:12 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 362 ms
+2025-12-15 10:08:12 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:08:12 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:08:12 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Starting...
+2025-12-15 10:08:12 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16b8c2c
+2025-12-15 10:08:12 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Start completed.
+2025-12-15 10:08:12 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:08:12 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:08:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:08:12 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:08:12 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:08:12 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:08:12 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.746 seconds (process running for 158.441)
+2025-12-15 10:08:12 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:08:16 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:08:16 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:08:16 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:08:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:08:16 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown initiated...
+2025-12-15 10:08:16 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown completed.
+2025-12-15 10:08:17 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 1856 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:08:17 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:08:17 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:08:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:08:17 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:08:17 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:08:17 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:08:17 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:08:17 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 315 ms
+2025-12-15 10:08:17 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:08:17 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:08:17 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Starting...
+2025-12-15 10:08:17 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ec068e0
+2025-12-15 10:08:17 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Start completed.
+2025-12-15 10:08:17 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:08:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:08:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:08:17 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:08:17 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:08:17 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:08:17 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.694 seconds (process running for 163.718)
+2025-12-15 10:08:17 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:10:36 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2025-12-15 10:10:36 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:10:36 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:10:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:10:36 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Shutdown initiated...
+2025-12-15 10:10:36 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Shutdown completed.
+2025-12-15 10:10:39 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 14532 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:10:39 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:10:39 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:10:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 10:10:39 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 10:10:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:10:40 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2025-12-15 10:10:41 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:10:41 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:10:41 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:10:41 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1331 ms
+2025-12-15 10:10:41 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:10:41 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 10:10:41 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:10:41 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 10:10:42 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7617893d
+2025-12-15 10:10:42 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 10:10:42 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:10:43 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:10:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:10:43 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 10:10:43 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:10:43 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:10:43 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:10:44 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 4.563 seconds (process running for 5.527)
+2025-12-15 10:10:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 10:10:44 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 10:10:44 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-12-15 10:10:51 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource emp/12 for request '/emp/12'.]
+2025-12-15 10:11:52 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:11:52 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:11:52 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:11:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:11:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 10:11:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 10:11:52 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 14532 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:11:52 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:11:52 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:11:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:11:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:11:52 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:11:52 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:11:52 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:11:52 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 324 ms
+2025-12-15 10:11:52 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:11:52 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:11:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-12-15 10:11:52 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e5a2af7
+2025-12-15 10:11:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-12-15 10:11:52 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:11:52 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:11:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:11:52 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:11:53 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:11:53 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:11:53 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.751 seconds (process running for 74.64)
+2025-12-15 10:11:53 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:11:59 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2025-12-15 10:11:59 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:11:59 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:11:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:11:59 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-12-15 10:11:59 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-12-15 10:12:03 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 5900 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:12:03 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:12:03 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:12:03 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 10:12:03 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 10:12:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:12:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2025-12-15 10:12:04 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:12:04 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:12:04 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:12:04 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1333 ms
+2025-12-15 10:12:04 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:12:04 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 10:12:05 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:12:05 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 10:12:05 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d620dd8
+2025-12-15 10:12:05 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 10:12:05 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:12:06 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:12:06 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:12:06 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 10:12:06 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:12:07 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:12:07 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:12:07 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 4.537 seconds (process running for 5.513)
+2025-12-15 10:12:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 10:12:07 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 10:12:07 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 2 ms
+2025-12-15 10:12:21 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2025-12-15 10:12:21 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:12:21 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:12:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:12:21 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 10:12:21 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 10:12:25 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 19432 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:12:25 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:12:25 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:12:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 10:12:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 10:12:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:12:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-12-15 10:12:26 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:12:26 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:12:26 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:12:26 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1339 ms
+2025-12-15 10:12:26 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:12:26 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 10:12:27 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:12:27 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 10:12:27 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2147aadd
+2025-12-15 10:12:27 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 10:12:27 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:12:28 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:12:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:12:28 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 10:12:28 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:12:29 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:12:29 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:12:29 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 4.551 seconds (process running for 5.499)
+2025-12-15 10:12:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 10:12:29 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 10:12:29 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-12-15 10:12:54 INFO  c.project.controllers.ItemController saving an Item
+2025-12-15 10:12:54 INFO  com.project.services.ItemService saving an Item
+2025-12-15 10:12:54 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [jakarta.validation.ValidationException: Item Cost must be greater than 1000]
+2025-12-15 10:14:03 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:14:03 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:14:03 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:14:03 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:14:03 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 10:14:03 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Starting EcomerceAppApplication using Java 21.0.4 with PID 19432 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:14:03 DEBUG %PARSER_ERROR[logge] Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Tomcat initialized with port 8072 (http)
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Starting service [Tomcat]
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Root WebApplicationContext: initialization completed in 330 ms
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] HikariPool-2 - Starting...
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@135985f1
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] HikariPool-2 - Start completed.
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:14:03 INFO  %PARSER_ERROR[logge] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:14:04 WARN  %PARSER_ERROR[logge] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:14:04 INFO  %PARSER_ERROR[logge] Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:14:04 INFO  %PARSER_ERROR[logge] Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:14:04 INFO  %PARSER_ERROR[logge] Started EcomerceAppApplication in 0.738 seconds (process running for 100.511)
+2025-12-15 10:14:04 INFO  %PARSER_ERROR[logge] Condition evaluation unchanged
+2025-12-15 10:14:26 INFO  %PARSER_ERROR[logge] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:14:26 INFO  %PARSER_ERROR[logge] Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:14:26 INFO  %PARSER_ERROR[logge] Graceful shutdown complete
+2025-12-15 10:14:26 INFO  %PARSER_ERROR[logge] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:14:26 INFO  %PARSER_ERROR[logge] HikariPool-2 - Shutdown initiated...
+2025-12-15 10:14:26 INFO  %PARSER_ERROR[logge] HikariPool-2 - Shutdown completed.
+2025-12-15 10:14:26 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 19432 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:14:26 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:14:26 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:14:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-12-15 10:14:26 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:14:26 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:14:26 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:14:26 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 304 ms
+2025-12-15 10:14:26 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:14:26 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:14:26 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Starting...
+2025-12-15 10:14:26 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c1d6558
+2025-12-15 10:14:26 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Start completed.
+2025-12-15 10:14:26 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:14:26 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:14:26 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:14:26 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:14:26 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint beneath base path '/actuator'
+2025-12-15 10:14:26 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:14:27 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.656 seconds (process running for 123.316)
+2025-12-15 10:14:27 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:16:11 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2025-12-15 10:16:11 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:16:11 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:16:11 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:16:11 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown initiated...
+2025-12-15 10:16:11 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown completed.
+2025-12-15 10:44:21 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:44:21 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:44:21 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:44:21 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-15 10:44:21 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-15 10:44:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:44:22 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-12-15 10:44:22 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:44:22 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:44:22 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:44:22 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 1431 ms
+2025-12-15 10:44:23 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:44:23 INFO  org.hibernate.Version HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15 10:44:23 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:44:23 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2025-12-15 10:44:24 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f617e23
+2025-12-15 10:44:24 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2025-12-15 10:44:24 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:44:24 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:44:24 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:44:25 INFO  o.s.d.j.r.q.QueryEnhancerFactories Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15 10:44:25 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:44:25 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 13 endpoints beneath base path '/actuator'
+2025-12-15 10:44:25 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:44:25 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 4.739 seconds (process running for 5.722)
+2025-12-15 10:44:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 10:44:26 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 10:44:26 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-12-15 10:51:44 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/heapdump for request '/actuator/heapdump'.]
+2025-12-15 10:53:38 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:53:38 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:53:38 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:53:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:53:38 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2025-12-15 10:53:38 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2025-12-15 10:53:38 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:53:38 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:53:38 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:53:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:53:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:53:39 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:53:39 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:53:39 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:53:39 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 326 ms
+2025-12-15 10:53:39 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:53:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:53:39 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+2025-12-15 10:53:39 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@938c4ad
+2025-12-15 10:53:39 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+2025-12-15 10:53:39 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:53:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:53:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:53:39 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:53:39 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 10:53:39 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:53:39 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.73 seconds (process running for 559.374)
+2025-12-15 10:53:39 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ConfigurationPropertiesReportEndpointAutoConfiguration#configurationPropertiesReportEndpointWebExtension:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpoint; SearchStrategy: all) found bean 'configurationPropertiesReportEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   EnvironmentEndpointAutoConfiguration#environmentEndpointWebExtension:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.env.EnvironmentEndpoint; SearchStrategy: all) found bean 'environmentEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.env.EnvironmentEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HealthEndpointWebExtensionConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   SbomEndpointAutoConfiguration#sbomEndpointWebExtension:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.sbom.SbomEndpoint; SearchStrategy: all) found bean 'sbomEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.sbom.SbomEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcHealthEndpointExtensionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnAvailableEndpoint not exposed (OnAvailableEndpointCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.boot.health.actuate.endpoint.HealthEndpoint' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-12-15 10:53:49 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 10:53:49 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 10:53:49 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 10:53:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:53:49 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+2025-12-15 10:53:49 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+2025-12-15 10:53:49 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 10:53:49 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 10:53:49 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 10:53:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 10:53:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 10:53:49 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 10:53:49 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 10:53:49 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 10:53:49 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 333 ms
+2025-12-15 10:53:49 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 10:53:49 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 10:53:49 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Starting...
+2025-12-15 10:53:49 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d227698
+2025-12-15 10:53:49 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Start completed.
+2025-12-15 10:53:49 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 10:53:49 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 10:53:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 10:53:49 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 10:53:49 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 10:53:49 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 10:53:49 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.681 seconds (process running for 569.754)
+2025-12-15 10:53:49 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 10:53:51 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-15 10:53:51 INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2025-12-15 10:53:51 INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2025-12-15 10:53:51 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/heapdump for request '/actuator/heapdump'.]
+2025-12-15 11:38:13 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-15 11:38:13 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:38:13 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:38:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:38:13 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown initiated...
+2025-12-15 11:38:13 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-3 - Shutdown completed.
+2025-12-15 11:38:13 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:38:13 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:38:13 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:38:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:38:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 11:38:14 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:38:14 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:38:14 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:38:14 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 345 ms
+2025-12-15 11:38:14 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:38:14 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:38:14 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Starting...
+2025-12-15 11:38:14 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@601916d6
+2025-12-15 11:38:14 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Start completed.
+2025-12-15 11:38:14 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:38:14 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:38:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:38:14 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:38:14 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:38:14 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:38:14 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.787 seconds (process running for 3234.637)
+2025-12-15 11:38:14 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 11:49:16 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-15 11:49:16 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:49:16 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:49:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:49:16 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Shutdown initiated...
+2025-12-15 11:49:16 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-4 - Shutdown completed.
+2025-12-15 11:49:16 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:49:16 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:49:16 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:49:16 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:49:16 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2025-12-15 11:49:16 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:49:16 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:49:16 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:49:16 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 317 ms
+2025-12-15 11:49:16 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:49:16 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:49:16 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-5 - Starting...
+2025-12-15 11:49:16 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@519dcbfe
+2025-12-15 11:49:16 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-5 - Start completed.
+2025-12-15 11:49:16 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:49:16 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:49:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:49:16 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:49:17 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:49:17 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:49:17 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.666 seconds (process running for 3897.035)
+2025-12-15 11:49:17 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 11:49:52 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-15 11:49:52 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:49:52 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:49:52 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:49:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-5 - Shutdown initiated...
+2025-12-15 11:49:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-5 - Shutdown completed.
+2025-12-15 11:49:52 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:49:52 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:49:52 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:49:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:49:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-12-15 11:49:52 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:49:52 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:49:52 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:49:52 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 302 ms
+2025-12-15 11:49:52 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:49:52 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:49:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-6 - Starting...
+2025-12-15 11:49:52 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1886406e
+2025-12-15 11:49:52 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-6 - Start completed.
+2025-12-15 11:49:52 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:49:53 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:49:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:49:53 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:49:53 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:49:53 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:49:53 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.638 seconds (process running for 3933.126)
+2025-12-15 11:49:53 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 11:50:19 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 11:50:19 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:50:19 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:50:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:50:19 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-6 - Shutdown initiated...
+2025-12-15 11:50:19 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-6 - Shutdown completed.
+2025-12-15 11:50:19 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:50:19 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:50:19 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:50:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:50:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-12-15 11:50:19 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:50:19 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:50:19 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:50:19 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 307 ms
+2025-12-15 11:50:19 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:50:19 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:50:19 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-7 - Starting...
+2025-12-15 11:50:19 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22d8cfb3
+2025-12-15 11:50:19 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-7 - Start completed.
+2025-12-15 11:50:19 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:50:19 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:50:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:50:19 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:50:20 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:50:20 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:50:20 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.642 seconds (process running for 3960.045)
+2025-12-15 11:50:20 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 11:52:54 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-12-15 11:52:54 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:52:54 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:52:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:52:54 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-7 - Shutdown initiated...
+2025-12-15 11:52:54 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-7 - Shutdown completed.
+2025-12-15 11:52:54 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:52:54 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:52:54 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:52:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:52:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 11:52:54 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:52:54 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:52:54 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:52:54 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 328 ms
+2025-12-15 11:52:54 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:52:54 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:52:54 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-8 - Starting...
+2025-12-15 11:52:54 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c35cc3a
+2025-12-15 11:52:54 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-8 - Start completed.
+2025-12-15 11:52:54 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:52:55 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:52:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:52:55 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:52:55 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:52:55 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:52:55 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.714 seconds (process running for 4115.185)
+2025-12-15 11:52:55 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 11:57:15 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 11:57:15 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:57:15 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:57:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:57:15 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-8 - Shutdown initiated...
+2025-12-15 11:57:15 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-8 - Shutdown completed.
+2025-12-15 11:57:15 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:57:15 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:57:15 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:57:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:57:15 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 11:57:15 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:57:15 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:57:15 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:57:15 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 330 ms
+2025-12-15 11:57:15 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:57:15 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:57:15 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-9 - Starting...
+2025-12-15 11:57:15 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@427b381a
+2025-12-15 11:57:15 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-9 - Start completed.
+2025-12-15 11:57:15 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:57:15 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:57:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:57:15 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:57:16 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:57:16 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:57:16 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.665 seconds (process running for 4375.988)
+2025-12-15 11:57:16 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 11:59:14 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-12-15 11:59:14 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 11:59:14 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 11:59:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:59:14 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-9 - Shutdown initiated...
+2025-12-15 11:59:14 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-9 - Shutdown completed.
+2025-12-15 11:59:14 INFO  com.project.EcomerceAppApplication Starting EcomerceAppApplication using Java 21.0.4 with PID 9056 (C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App\target\classes started by thummaluru.sandhya1 in C:\Users\thummaluru.sandhya1\Downloads\Ecomerce App\Ecomerce-App)
+2025-12-15 11:59:14 DEBUG com.project.EcomerceAppApplication Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-12-15 11:59:14 INFO  com.project.EcomerceAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-12-15 11:59:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15 11:59:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-12-15 11:59:14 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat initialized with port 8072 (http)
+2025-12-15 11:59:14 INFO  o.a.catalina.core.StandardService Starting service [Tomcat]
+2025-12-15 11:59:14 INFO  o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-15 11:59:14 INFO  o.s.b.w.c.s.WebApplicationContextInitializer Root WebApplicationContext: initialization completed in 306 ms
+2025-12-15 11:59:14 INFO  o.h.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15 11:59:14 INFO  o.s.o.j.p.SpringPersistenceUnitInfo No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15 11:59:14 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-10 - Starting...
+2025-12-15 11:59:14 INFO  com.zaxxer.hikari.pool.HikariPool HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1853f49
+2025-12-15 11:59:14 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-10 - Start completed.
+2025-12-15 11:59:14 INFO  o.hibernate.orm.connections.pooling HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/springg]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: springg/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15 11:59:14 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15 11:59:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 11:59:14 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15 11:59:14 INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 0 endpoints beneath base path '/actuator'
+2025-12-15 11:59:15 INFO  o.s.boot.tomcat.TomcatWebServer Tomcat started on port 8072 (http) with context path '/'
+2025-12-15 11:59:15 INFO  com.project.EcomerceAppApplication Started EcomerceAppApplication in 0.64 seconds (process running for 4494.929)
+2025-12-15 11:59:15 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener Condition evaluation unchanged
+2025-12-15 12:20:19 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2025-12-15 12:20:19 INFO  o.s.boot.tomcat.GracefulShutdown Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-15 12:20:19 INFO  o.s.boot.tomcat.GracefulShutdown Graceful shutdown complete
+2025-12-15 12:20:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15 12:20:19 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-10 - Shutdown initiated...
+2025-12-15 12:20:19 INFO  com.zaxxer.hikari.HikariDataSource HikariPool-10 - Shutdown completed.
