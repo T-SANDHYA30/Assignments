@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.model.Student" table="student_table">
+<id name="studId" column="studId"> <generator class="native"/></id>
+<property name="stdName" column="stdName"/>
+<property name="course" column="course"/>
+<property name="mobNum" column="mobNum"/>
+<property name="email" column="email"/>
+</class>
+</hibernate-mapping>

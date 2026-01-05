@@ -1,0 +1,10 @@
+package com.streams.novv27;
+
+public class DemoOnStackArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

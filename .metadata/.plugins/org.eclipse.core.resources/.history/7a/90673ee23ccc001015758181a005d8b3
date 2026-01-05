@@ -1,0 +1,59 @@
+package com.jdbc.jdbcfile;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class CrudOperations {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		 Class.forName("com.mysql.cj.jdbc.Driver");
+	        String uname="root";
+	        String pwd="root@39";
+	        String url="jdbc:mysql://localhost:3306/assignments";
+	        
+	        try (Connection con = DriverManager.getConnection(url, uname, pwd);
+	        		Statement st = con.createStatement();
+					ResultSet rs = st.executeQuery("select * from Customer");)	{
+	        	
+	        	//insert record
+//	        	String query="insert into customer values(?,?,?,?,?)";
+//	        	PreparedStatement ps=con.prepareStatement(query);
+//	        	ps.setInt(1,7);
+//	        	ps.setString(2, "madhu");
+//	        	ps.setString(3,"America");
+//	        	ps.setInt(4, 980023456);
+//	        	ps.setString(5, "madhusree@gmail.com");
+//	        	
+//	            ps.executeUpdate();
+//	            System.out.println("row inserted sucessfully");
+	            
+	        	//read data
+//	            ResultSetMetaData rsmd = rs.getMetaData();
+//				int columnsCount = rsmd.getColumnCount();
+//				while(rs.next()) {
+//				for (int i = 1; i <= columnsCount; i++)
+//					System.out.println(rsmd.getColumnName(i) + " : " + rs.getString(rsmd.getColumnName(i)));
+//				System.out.println("--------------");
+//			}
+				
+				//update data
+				String query="Update Customer PhoneNumber = ? where CustomerId=?";
+				PreparedStatement ps=con.prepareStatement(query);
+				ps.setInt(1,777773333);
+				ps.executeUpdate();
+				
+	        }
+
+	        	
+	        	
+	        	
+	        	
+	        }
+	}
+

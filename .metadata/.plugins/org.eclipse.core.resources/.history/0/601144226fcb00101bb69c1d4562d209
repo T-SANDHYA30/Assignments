@@ -1,0 +1,57 @@
+package com.stacks;
+
+import java.util.Scanner;
+
+public class MyStack {
+	
+	private static Node top=null;
+	public static boolean isEmpty() {
+		return top==null;
+	}
+	
+	public static Node createNode() {
+		System.out.println("enter data");
+		Scanner s=new Scanner(System.in);
+		int data=s.nextInt();
+		return new Node(data);
+	}
+	
+	
+	public static void push() {
+		
+		Node newNode=createNode();
+		if(top==null)
+			top=newNode;
+		else
+		{
+			newNode.setNext(top);
+			top=newNode;
+			System.out.println("node with "+newNode.getData()+"inserted into stack success");
+		}
+	}
+	
+	public static void pop() {
+		
+		if(isEmpty())
+			System.out.println("stack overflow");
+		else {
+			System.out.println(top.getData()+" is popped");
+			Node temp=top;
+			temp.setNext(null);
+			top=top.getNext();
+		}
+	}
+	public static void display() {
+		if(isEmpty())
+			System.out.println("no stack exists");
+		else {
+			Node temp=top;
+			while(temp!=null) {
+			System.out.println(temp.getData()+"-->");
+		    temp=temp.getNext();
+			}
+			
+		}
+	}
+
+}

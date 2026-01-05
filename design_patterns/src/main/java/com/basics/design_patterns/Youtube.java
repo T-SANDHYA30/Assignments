@@ -1,0 +1,17 @@
+package com.basics.design_patterns;
+
+public class Youtube extends Video{
+
+	public Youtube(ProcessingQuality quality) {
+		super(quality);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void playVideo() {
+		// TODO Auto-generated method stub
+		System.out.println("playing in  youtube");
+		quality.processVideo();
+	}
+
+}

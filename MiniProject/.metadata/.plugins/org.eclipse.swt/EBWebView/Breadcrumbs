@@ -1,0 +1,7 @@
+0:00:02 Tab2 StartNav6 #typed
+0:00:02 Tab2 FinishNav6
+0:00:02 Tab2 PageLoad
+0:00:03 Tab2 StartNav7 #typed
+0:00:03 Tab2 FinishNav7
+0:00:03 Tab2 PageLoad
+0:34:16 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
