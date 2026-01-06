@@ -1,0 +1,16 @@
+
+  <!--<h1>My first Angular App</h1>
+  <app-hello></app-hello>
+  <app-demo></app-demo>-->
+
+<div class="container">
+  <div class="row">
+    <app-header></app-header>
+  </div>
+  <div class="row">
+    <app-login [appName]="appName" (notify)="receive($event)"></app-login>
+  </div>
+  <div class="row">
+    <app-footer></app-footer>
+  </div>
+</div>
