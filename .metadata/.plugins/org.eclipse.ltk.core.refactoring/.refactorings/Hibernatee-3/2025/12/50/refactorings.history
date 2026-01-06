@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;Hibernatee-3&apos;&#x0D;&#x0A;- Original project: &apos;Hibernatee-3&apos;&#x0D;&#x0A;- Original element: &apos;Hibernatee-3/src/main/java/com.util&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.util" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1765193661685" subPackages="false" version="1.0"/>
-</session>

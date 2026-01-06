@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.project.spEL.beans.spELDemoClass.java&apos; to &apos;SpELDemoClass.java&apos;&#x0D;&#x0A;- Original project: &apos;spEL&apos;&#x0D;&#x0A;- Original element: &apos;com.project.spEL.beans.spELDemoClass.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.project.spEL.beans.SpELDemoClass.java&apos;" description="Rename compilation unit &apos;spELDemoClass.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.project.spEL.beans{spELDemoClass.java" name="SpELDemoClass.java" references="false" stamp="1765428445794" version="1.0"/>
-</session>
