@@ -1,0 +1,95 @@
+<div class="container mt-4">
+    <div class="card mb-3">
+        <div class="card-header bg-primary text-white">
+            <h3>Add Employee</h3>
+        </div>
+        <div class="card-body">
+            <form #empform="ngForm" (ngSubmit)="onSubmit(empform)">
+                <div class="container mb-3">
+                    <label class="form-label" for="eid">EmployeeId</label>
+                    <input type="number" class="form-control" 
+                    id="eid" 
+                    name="eid" 
+                    [(ngModel)]="employee.eid" #eid="ngModel"
+                    required>
+                    @if(eid.touched && eid.errors?.['required']) {
+                        <div class="text-danger">Eid is required</div>
+                    }
+                    @if(eid.touched && eid.errors?.['min']){
+                        <div class="text-danger">Eid must be positive and Non-zero</div>
+                    }
+                </div>
+                <div class="container mb-3">
+                    <label class="form-label" for="ename">EmployeeName</label>
+                    <input type="text" class="form-control" 
+                    id="ename" 
+                    name="ename" 
+                    [(ngModel)]="employee.ename" #ename="ngModel"
+                    required="min=1">
+                    @if(ename.touched && ename.errors?.['required']){
+                        <div class="text-danger">Ename is required</div>
+                    }
+                    @if(ename.touched && ename.errors?.['minlength']){
+                        <div class="text-danger">Ename must be minimum of 3 char length</div>
+                    }
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="desg">Designation</label>
+                    <input type="text" class="form-control" 
+                    id="desg" 
+                    name="Designation" 
+                    [(ngModel)]="employee.desg" #desg="ngModel"
+                    required="">
+                    @if(eid.touched && eid.errors?.['required']) {
+                        <div class="text-danger">designation is required</div>
+                    }
+                    @if(eid.touched && eid.errors?.['pattern']) {
+                        <div class="text-danger">Email Pattern is Incorrect</div>
+                    }
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" class="form-control" 
+                    id="email" 
+                    name="email" 
+                    [(ngModel)]="employee.email" #email="ngModel"
+                    required="">
+                    @if(eid.touched && eid.errors?.['required']) {
+                        <div class="text-danger">Email is required</div>
+                    }
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="mobile">Mobile Number</label>
+                    <input type="tel" class="form-control" 
+                    id="mobile" 
+                    name="mobile" 
+                    [(ngModel)]="employee.mobile" #emobile="ngModel"
+                    required="">
+                    @if(eid.touched && eid.errors?.['required']) {
+                        <div class="text-danger">Mobile is required</div>
+                    }
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="salary">Salary</label>
+                    <input type="number" class="form-control" 
+                    id="salary" 
+                    name="salary" 
+                    [(ngModel)]="employee.salary" #salary="ngModel"
+                    required="">
+                    @if(eid.touched && eid.errors?.['required']) {
+                        <div class="text-danger">salery is required</div>
+                    }
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="dept">Department</label>
+                    <input type="text" class="form-control" 
+                    id="dept" 
+                    name="dept" 
+                    [(ngModel)]="employee.dept" #dept="ngModel"
+                    required="">
+                </div>
+                <button type="submit class" class="btn btn-primary" [disabled]="empform.invalid">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
