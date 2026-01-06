@@ -1,0 +1,23 @@
+package com.stacksandqueues;
+
+public class CirucularQueues {
+	
+	private static int front=-1;
+	private static int rear=-1;
+	private static int[] cqueue=new int[10];
+	
+	public static boolean isFull() {
+		if(rear==cqueue.length-1)
+			return true;
+		else
+			return false;
+	}
+	
+	public static boolean isEmpty() {
+		if(front==-1||front>rear)
+			return true;
+		else
+			return false;
+	}
+
+}

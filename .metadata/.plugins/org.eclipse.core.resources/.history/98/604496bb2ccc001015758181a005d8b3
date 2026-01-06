@@ -1,0 +1,38 @@
+package com.jdbc.jdbcfile;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args ) throws ClassNotFoundException, SQLException
+    {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        System.out.println("driver loaded");
+        
+        String uname="root";
+        String pwd="root@39";
+        String url="jdbc:mysql://localhost:3306/assignments";
+        Connection con= DriverManager.getConnection(url,uname,pwd);
+        System.out.println("connection established");
+        
+        String query="select * from Customer";
+        Statement st=con.createStatement();
+        ResultSet rs= st.executeQuery(query);
+        while(rs.next()) {
+        	System.out.println("CustomerId:"+rs.getInt(1));
+        	System.out.println("Name:"+rs.getString(2));
+        	System.out.println("Address:"+rs.getString(3));
+        	System.out.println("PhoneNumber:"+rs.getInt(4));
+        	System.out.println("Email:"+rs.getInt(5));
+        	
+        }
+    }
+}

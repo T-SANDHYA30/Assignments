@@ -1,0 +1,10 @@
+package com.stacks;
+
+public class MyStack {
+	
+	private static Node top=null;
+	public static void isEmpty() {
+		return top==null;
+	}
+
+}

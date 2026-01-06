@@ -1,0 +1,37 @@
+package com.searching.sortingandsearching;
+
+public class QuickSort {
+	
+	private static void quickSort(int arr[], int low, int high) {
+		if(low<high) {
+			int pivot=partition(arr, low, pivot);
+			quickSort(arr, low, pivot);
+			quickSort(arr, pivot+1, high);
+			
+		}		
+	}
+	
+	private static int partition(int[] arr, int low, int pivot) {
+		int pivot=arr[low];
+		int i=low;
+		for(int j=low+1;j<=high;j++)
+	}
+
+	public static void main(String[] args) {
+
+		
+		int[] arr= {12,9,21,16,99,75,93,66};
+		System.out.println("Before sort");
+		for(int i=0;i<arr.length;i++)
+		System.out.print(arr[i]+" ");
+		
+		quickSort(arr,0,arr.length-1);
+		System.out.println("after sort");
+		for(int i=0;i<arr.length;i++)
+			System.out.print(arr[i]+" ");
+
+	}
+
+	
+
+}
