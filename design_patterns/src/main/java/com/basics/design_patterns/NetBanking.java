@@ -1,0 +1,17 @@
+package com.basics.design_patterns;
+
+public class NetBanking implements Payment{
+	
+	private CashPayment cash= new CashPayment();
+
+	@Override
+	public void pay(double amount) {
+		// TODO Auto-generated method stub
+		System.out.println("user validated and authenticated");
+		System.out.println("pin verification done");
+		System.out.println("payment succesfull");
+		cash.pay(amount);
+		
+	}
+
+}

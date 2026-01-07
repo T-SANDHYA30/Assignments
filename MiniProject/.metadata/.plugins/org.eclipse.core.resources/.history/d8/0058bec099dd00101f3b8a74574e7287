@@ -1,0 +1,329 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="jakarta.servlet.http.*" %>
+<%@ page import="com.model.Admin" %>
+<%
+    Admin admin = (Admin) session.getAttribute("admin");
+    if (admin == null) {
+        response.sendRedirect(request.getContextPath() + "/admin/login");
+        return;
+    }
+%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Question - Quiz App</title>
+    <style>
+      
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* System font stack for a professional look */
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+               Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans",
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: #2f3a48; /* Dark neutral for body text */
+  background: #f6f7f9; /* Light, soft background */
+  min-height: 100%;
+  line-height: 1.5;
+}
+
+/* Global container layout */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===== Sidebar (light, minimal) ===== */
+.sidebar {
+  width: 260px;
+  background: #ffffff; /* Flat white */
+  border-right: 1px solid #e6e9ef; /* Subtle divider */
+  color: #2f3a48;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937; /* Slightly darker */
+  margin-bottom: 28px;
+  letter-spacing: 0.2px;
+}
+
+/* Menu items */
+.menu-item {
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  color: #334155;
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.menu-item:hover {
+  background-color: #f3f4f6; /* Soft hover */
+  color: #111827;
+}
+
+.menu-item.active {
+  background-color: #eef2ff; /* Accent tint */
+  color: #1d4ed8; /* Accent color */
+  border: 1px solid #e0e7ff;
+}
+
+/* ===== Main content area ===== */
+.main-content {
+  flex: 1;
+  padding: 40px 48px;
+  background: #ffffff; /* Flat white content area */
+  /* Subtle inset to separate from page background */
+  box-shadow: inset 0 1px 0 #f1f3f7;
+  overflow-y: auto;
+}
+
+/* ===== Form container ===== */
+.form-container {
+  max-width: 800px;
+  background: #ffffff;
+  padding: 28px 32px;
+  border-radius: 12px;
+  border: 1px solid #e6e9ef;
+  box-shadow: 0 4px 12px rgba(17, 24, 39, 0.06); /* Subtle elevation */
+}
+
+/* Headings */
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+
+/* ===== Alerts (accessible contrast) ===== */
+.success, .error {
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+.success {
+  background: #ecfdf5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+
+.error {
+  background: #fef2f2;
+  color: #7f1d1d;
+  border-color: #fecaca;
+}
+
+/* ===== Form elements ===== */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+/* Inputs */
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d4d9e3;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #1f2937;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #9aa3b2;
+}
+
+/* Focus states (visible + consistent) */
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #93c5fd;          /* Light accent */
+  box-shadow: 0 0 0 3px rgba(147, 197, 253, 0.35);
+  outline: none;
+}
+
+/* Textarea tuned for readability */
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  line-height: 1.45;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #2563eb;        /* Primary accent (flat) */
+  color: #ffffff;
+  border: 1px solid #1e54c7;  /* Slight border for definition */
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.06s ease;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;  /* Darker on hover */
+  box-shadow: 0 6px 18px rgba(29, 78, 216, 0.18);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.35);
+  outline: none;
+}
+
+/* Secondary / subtle button variation */
+.btn--secondary {
+  background: #ffffff;
+  color: #1f2937;
+  border-color: #d4d9e3;
+}
+
+.btn--secondary:hover {
+  background: #f9fafb;
+  box-shadow: 0 6px 18px rgba(17, 24, 39, 0.08);
+}
+
+/* ===== Utility spacing for forms ===== */
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 992px) {
+  .main-content {
+    padding: 28px 24px;
+  }
+  .sidebar {
+    width: 220px;
+    padding: 20px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e6e9ef;
+  }
+  .main-content {
+    padding: 20px 16px;
+  }
+  .form-container {
+    padding: 20px;
+  }
+}
+      
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="logo">🎯 QUIZ APP</div>
+            <a href="${pageContext.request.contextPath}/admin/dashboard" class="menu-item">📊 Dashboard</a>
+            <a href="${pageContext.request.contextPath}/admin/quizManager" class="menu-item">📝 Quiz Manager</a>
+            <a href="${pageContext.request.contextPath}/admin/questionList" class="menu-item">❓ Question Manager</a>
+            <a href="${pageContext.request.contextPath}/admin/addQuestion" class="menu-item active">➕ Add New Question</a>
+            <a href="${pageContext.request.contextPath}/admin/createQuiz" class="menu-item">🆕 Create Quiz</a>
+        </aside>
+        <main class="main-content">
+            <div class="form-container">
+                <h2>Add New Question</h2>
+
+                <% if (request.getAttribute("success") != null) { %>
+                    <div class="success"><%= request.getAttribute("success") %></div>
+                <% } %>
+
+                <% if (request.getAttribute("error") != null) { %>
+                    <div class="error"><%= request.getAttribute("error") %></div>
+                <% } %>
+
+                <form action="${pageContext.request.contextPath}/admin/addQuestion" method="post">
+                    <div class="form-group">
+                        <label for="questionText">Question</label>
+                        <textarea id="questionText" name="questionText" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="option1">Option 1</label>
+                        <input type="text" id="option1" name="option1" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="option2">Option 2</label>
+                        <input type="text" id="option2" name="option2" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="option3">Option 3</label>
+                        <input type="text" id="option3" name="option3" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="option4">Option 4</label>
+                        <input type="text" id="option4" name="option4" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="correctOption">Correct Option</label>
+                        <select id="correctOption" name="correctOption" required>
+                            <option value="">Select Correct Option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <input id="category" type="text" name="category" placeholder="e.g., SCIENCE" required>
+                    </div>
+
+                    <button type="submit" class="btn">Add Question</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

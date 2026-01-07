@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>hellomavenplugin</groupId>
+	<artifactId>hellomavenplugin</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-plugin-plugin</artifactId>
+			<version>3.11.0</version>
+			<configuration>
+				<!-- Your custom goal prefix -->
+				<goalPrefix>hello</goalPrefix>
+			</configuration>
+			<executions>
+				<execution>
+					<!-- The 'descriptor' goal generates the plugin descriptor -->
+					<goals>
+						<goal>descriptor</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+	</plugins>
+</project>

@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" isErrorPage="true"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<% Exception ex=(Exception)request.getAttribute("err"); %>
+<%= ex.getMessage() %>
+<%= exception.getMessage() %>
+if(exception==null)
+out.println("exception is null");
+else
+exception.getMessage();
+</body>
+</html>
