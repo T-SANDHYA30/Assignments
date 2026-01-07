@@ -1,0 +1,10 @@
+<div>
+    <ul>
+        @for(i of items; track $index){
+            <li [ngStyle]="{color:'blue'}">{{i.id}}--{{i.name}}--{{i.cost}}</li>
+        }
+        @empty{
+            <h3>No items</h3>
+        }
+    </ul>
+</div>

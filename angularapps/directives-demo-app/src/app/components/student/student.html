@@ -1,0 +1,11 @@
+<div>
+    <ul>
+        @for(s of stud; track s.sid){
+            <li [ngClass]="{
+            pass:s.marks>=40,
+            fail:s.marks<40
+        }"
+        [ngStyle]="">{{s.sid}}--{{s.sname}}--{{s.marks}}</li>
+    }
+    </ul>
+</div>

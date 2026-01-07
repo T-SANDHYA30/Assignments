@@ -1,0 +1,137 @@
+
+/* Hero */
+.about-hero {
+  background: linear-gradient(135deg, #7aa3a3, #66acac, #1e4e38);
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 0 80px 80px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* About main content */
+.about-content {
+  padding: 80px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content p.lead {
+  font-size: 20px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.8;
+}
+
+.list-icons {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-icons li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #444;
+  display: flex;
+  align-items: center;
+}
+
+.list-icons li::before {
+  content: "✔";
+  color: #ff6a88;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.about-img {
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+/* Values */
+.values-section {
+  background: linear-gradient(135deg, #f9f9f9, #e8f0ff);
+  padding: 80px 20px;
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.value-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.value-card img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+/* CTA */
+.about-cta {
+  background: linear-gradient(135deg, #ff6a88, #ff7eb3);
+  color: #fff;
+  padding: 70px 40px;
+  border-radius: 20px;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.about-cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-cta button {
+  background: #fff;
+  color: #ff6a88;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background #00ff00;
+}
+
+.about-cta button:hover {
+  background: #ff6a88;
+  color: #fff;
+}
+
+/* Smooth animation */
+@keyframes float {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
